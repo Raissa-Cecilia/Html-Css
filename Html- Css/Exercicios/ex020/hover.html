@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo- classe 2</title>
+    <style>
+        div> p{
+            display: none;
+        }
+        div:hover> p{
+            display: block;
+            color: white;
+            background-color: rgb(116, 83, 146);
+            width: 200px;
+        }
+        div:hover{
+         color: crimson;
+        }
+    </style>
+</head>
+<body>
+    <h1>Testando</h1>
+    <p>Passse o mouse a abaixo</p>
+    <div>olha aqui o que acontece
+        <p>TEXTO ESCONDIDO</p>
+    </div>
+    <p>Fim do processo!</p>
+</body>
+</html>

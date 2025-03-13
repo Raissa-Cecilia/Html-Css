@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <H1>Imagem dinâmicas</H1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagens/foto-P.png" type="image/png">
+        <source media="(max-width: 1000px )" srcset="imagens/foto-M.png">
+        <img src="imagens/foto-G.png" alt="Imagem flexivel">
+    </picture>
+    <h1>Reproduzindo aúdios</h1>
+    <p>Vamos aprender a reproduzir aúdios</p>
+    <audio src="midia/newjeans.mp3.mp3" controls autoplay loop></audio>
+    <!--MP3 WAV OGG-->
+    <audio preload="metadata"  controls loop>
+        <source src="midia/newjeans.mp3." type="audio/mpg">
+        <source src="midia/newjeans.ogg" type="audio/ogg">
+        <source src="midia/newjeans.waV" type="audio/waV">
+        <p>Infelismente seu dispositivo não suporta aúdios
+        <a href="midia/newjeans.mp3.">clique aqui para baixar o audio</a></p>
+    </audio>
+</body>
+</html>
