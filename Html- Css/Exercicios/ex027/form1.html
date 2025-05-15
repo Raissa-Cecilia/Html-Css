@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formu</title>
+</head>
+<body>
+    <h1>Testando mais atribuições de forms</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+         <fieldset>
+            <legend>Cadastro pessoais</legend>
+             <p>
+                <label for="inome">Nome: </label>
+                <input type="email" name="nome" id="inome" autocomplete="name" required placeholder="Digite seu nome" maxlength="25" minlength="5">
+                     </p>
+                     <p>
+                <label for="imael">E-mail: </label>
+                <input type="email" name="mael" id="imael" autocomplete="email" required placeholder="Digite seu E-mail">
+                     </p>
+                     <p>
+                <label for="itele">Telefone: </label>
+                <input type="tel" name="tele" id="itele" autocomplete="tel" required pattern="^\(\d{2}\)\d{4,5}-\d{4}$" placeholder="(00) 00000-0000">
+                     </p>
+         </fieldset>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </form>
+</body>
+</html>
