@@ -1,1 +1,8 @@
 @charset "UTF-8";
+
+/* Estilos para deitado */
+
+body{
+    background-image: url(../imagens/cev-landscape.jpg);
+    background-position: left bottom;
+}
