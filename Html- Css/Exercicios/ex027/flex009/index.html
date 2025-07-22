@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando Flexboxes</title>
+    <style>
+        div.cotainer{
+            background-color: lightblue;
+            
+            display:flex;
+            flex-flow: row wrap;
+           
+
+        }
+        div.item{
+            background-color: lightpink;
+            border: 1px solid black;
+            text-align: center;
+            padding: 20px;
+            
+          flex-basis: 90px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="cotainer">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">DDDDDDDDDDDDDDDDDDddddd</div>
+        <div class="item">E</div>
+        <div class="item">FFFFFFFFFFFFFFFFFFFFFFFFFFF</div>
+    </div>
+</body>
+</html>
